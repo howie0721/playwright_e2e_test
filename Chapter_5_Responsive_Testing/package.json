@@ -1,0 +1,16 @@
+{
+  "name": "chapter_5_responsive_testing",
+  "version": "1.0.0",
+  "description": "- Playwright 可模擬多種裝置尺寸，驗證網頁在不同螢幕下的顯示效果。\r - 範例：\r ```js\r const iPhone = { width: 375, height: 667 };\r await page.setViewportSize(iPhone);\r ```",
+  "main": "5.1_viewport.spec.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "playwright": "^1.56.1"
+  }
+}
