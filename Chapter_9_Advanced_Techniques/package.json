@@ -1,0 +1,16 @@
+{
+  "name": "chapter_9_advanced_techniques",
+  "version": "1.0.0",
+  "description": "- Playwright 支援自訂 helper、擴充 test API。\r - 範例：\r ```js\r test('自訂登入指令', async ({ page }) => {\r   await page.goto('https://playwright.dev/');\r   await page.fill('input[name=\"account\"]', 'user');\r   await page.fill('input[name=\"password\"]', 'pw');\r   await page.click('button.login');\r });\r ```",
+  "main": "9.1_custom_command.spec.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "playwright": "^1.56.1"
+  }
+}
