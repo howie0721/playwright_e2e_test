@@ -1,0 +1,16 @@
+{
+  "name": "chapter_3_playwright_test_framework",
+  "version": "1.0.0",
+  "description": "Playwright Test 是官方提供的 E2E 測試框架，支援自動化執行、斷言、分群、報告等功能。",
+  "main": "3.2_test_structure.spec.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "playwright": "^1.56.1"
+  }
+}

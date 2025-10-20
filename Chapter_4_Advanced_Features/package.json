@@ -1,0 +1,16 @@
+{
+  "name": "chapter_4_advanced_features",
+  "version": "1.0.0",
+  "description": "- Playwright 可自動填寫表單、選擇下拉選單、上傳檔案。\r - 範例：\r ```js\r await page.fill('input[name=\"username\"]', 'howie');\r await page.selectOption('select#country', 'TW');\r await page.setInputFiles('input[type=\"file\"]', 'path/to/file.png');\r ```",
+  "main": "4.1_form_upload.spec.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "playwright": "^1.56.1"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "chapter_1_playwright_basics",
+  "version": "1.0.0",
+  "description": "Playwright 是由 Microsoft 開發的現代化端對端自動化測試框架，支援多瀏覽器（Chromium、Firefox、WebKit），可用於網頁自動化測試、爬蟲、截圖等。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "playwright": "^1.56.1"
+  }
+}
