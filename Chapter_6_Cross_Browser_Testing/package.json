@@ -1,0 +1,16 @@
+{
+  "name": "chapter_6_cross_browser_testing",
+  "version": "1.0.0",
+  "description": "- Playwright 可同時測試多種瀏覽器，確保相容性。\r - 範例：\r ```js\r // 在 config 設定 projects\r projects: [\r   { name: 'chromium', use: { browserName: 'chromium' } },\r   { name: 'firefox', use: { browserName: 'firefox' } },\r   { name: 'webkit', use: { browserName: 'webkit' } },\r ]\r ```",
+  "main": "6.1_multi_browser.spec.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "playwright": "^1.56.1"
+  }
+}

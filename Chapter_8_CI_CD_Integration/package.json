@@ -1,0 +1,16 @@
+{
+  "name": "chapter_8_ci_cd_integration",
+  "version": "1.0.0",
+  "description": "- Playwright 可輕鬆整合主流 CI 工具，實現自動化測試。\r - 範例：GitHub Actions 設定\r ```yaml\r name: Playwright Tests\r on: [push]\r jobs:\r   test:\r     runs-on: ubuntu-latest\r     steps:\r       - uses: actions/checkout@v2\r       - name: Setup Node.js\r         uses: actions/setup-node@v2\r         with:\r           node-version: '20'\r       - run: npm ci\r       - run: npx playwright install\r       - run: npx playwright test\r ```",
+  "main": "8.2_parameterization.spec.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "playwright": "^1.56.1"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "chapter_7_ecommerce_scenarios",
+  "version": "1.0.0",
+  "description": "- 驗證商品列表、搜尋功能、分頁切換。\r - 範例：\r ```js\r await page.goto('https://demo.playwright.dev/todomvc');\r await page.fill('input.search', '商品名稱');\r await page.click('button.search');\r await expect(page.locator('.product-list')).toContainText('商品名稱');\r ```",
+  "main": "7.1_product_search.spec.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "playwright": "^1.56.1"
+  }
+}
